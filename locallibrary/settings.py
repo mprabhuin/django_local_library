@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '1xed1ol6+qg@uvju&9_hd8l4^845h)
 # The value of the DEBUG will be True by default, but will be False if the value of the DJANGO_DEBUG environment variable is set to an empty string, e.g. DJANGO_DEBUG=''
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["locallibrary-prbs.herokuapp.com"]
 
 
 # Application definition
